@@ -1,0 +1,33 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Barlow', sans-serif;
+}
+input{
+    border-radius: 5px;
+    border-color: rgb(21, 156, 160);
+}
+img{
+    width:100%;
+    display: block;
+}
+h1,h2,h3,h4,p,ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+button{
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+a{
+    text-decoration: none;
+}

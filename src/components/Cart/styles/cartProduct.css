@@ -1,0 +1,24 @@
+.card-product{
+    margin: 1rem;
+    padding: 16px;
+    color:rgb(226, 226, 195);
+    font-weight: 700;
+    text-shadow: 1px 0.9px 0.5px black;
+    background-image: linear-gradient(rgb(47, 136, 165), rgba(42, 27, 74, 0.842));
+    border: 2.3px solid rgb(21, 12, 12);
+    border-radius: 20px;
+    max-width: 500px;
+    
+}
+.card-product__header{
+    color:rgb(244, 239, 239);
+    
+    
+}
+.card-product__btn{
+    background-color: white;
+    border-radius: 16px;
+    padding: 8px;
+    display: block;
+    margin-left: auto;
+}
