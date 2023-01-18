@@ -127,6 +127,25 @@
     color:#0a1592;
     font-weight: 600;
 }
+.login__prueba{
+    background-color: rgb(7, 41, 68);
+    max-width: 300px;
+    color: beige;
+    text-shadow: 1px 1px black;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 0.8;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.login__prueba-title{
+    color:rgb(170, 205, 243);
+}
+.login__prueba-label{
+    color:rgb(214, 236, 250);
+    
+}
 .login__label{
     font-size: 1.2rem;
     display: block;

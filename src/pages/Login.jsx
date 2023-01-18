@@ -44,6 +44,13 @@ const Login = () => {
   return (
     <div className='login login__before'>
         <p className='login__initial'>Please enter the indicated data to be able to enter </p>
+        <div className="login__prueba">
+          <ul className='login__prueba-ul'>
+              <p className='login__prueba-title'>Test Email</p>
+              <li><label className='login__prueba-label'>email:</label> richardalfaromanzano@gmail.com</li>
+              <li><label className='login__prueba-label'>password:</label> secreto1234</li>
+          </ul>
+        </div>
         <form className='login__form' onSubmit={handleSubmit(submit)}>
             <div className='login__email'>
                 <label className='login__label' htmlFor="email">Email</label>
